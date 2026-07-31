@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest something Jabbersnap should be able to do.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: >
+        Describe the situation rather than the solution. Knowing the job you are
+        trying to get done makes it possible to solve it well.
+      placeholder: >
+        When I explain a change across two apps, I lose track of which screenshot
+        went with which instruction.
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What did you have in mind?
+      description: Optional. If you already have a shape in mind, describe it here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What do you do today instead?
+      description: How you work around it now, and what that costs you.
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/20twenty/jabbersnap-app/discussions
+    about: For anything that is not a specific bug or feature request.
+  - name: About Jabbersnap
+    url: https://jabbersnap.com
+    about: What Jabbersnap is and how it works.

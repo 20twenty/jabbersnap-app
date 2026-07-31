@@ -1,0 +1,76 @@
+name: Bug report
+description: Something in the Mac app or the device does not work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues here are public. Please leave out personal data and the contents
+        of any real Brief — a redacted example is usually enough.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+      placeholder: |
+        1. Held the button and started talking
+        2. Pressed the screenshot control
+        3. Expected the screenshot to appear in the Brief; the Brief stayed empty
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does this happen?
+      options:
+        - The Mac app
+        - The device
+        - The connection between them
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: Jabbersnap app version
+      description: Jabbersnap → About, or the version of the download you installed.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: Apple menu → About This Mac.
+      placeholder: "macOS 15.5 (Apple silicon)"
+    validations:
+      required: true
+
+  - type: input
+    id: firmware-version
+    attributes:
+      label: Device firmware version
+      description: Leave blank if the problem does not involve the device.
+      placeholder: "0.4.2"
+    validations:
+      required: false
+
+  - type: textarea
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      description: Every time, sometimes, or only once? Anything that makes it more likely?
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, screen recordings, or console output. Drag files in to attach them.
+    validations:
+      required: false
