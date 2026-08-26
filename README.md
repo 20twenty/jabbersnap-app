@@ -15,6 +15,8 @@ This is where Jabbersnap's public downloads and issue tracking live.
   and the device.
 - **[Discussions](../../discussions)** — questions, ideas, and anything that is
   not a specific bug.
+- **[Privacy policy](PRIVACY.md)** — what the app sends off your Mac and what
+  stays on it.
 
 Jabbersnap's source code is not public, so there is nothing here to build and
 no pull requests to open. The repository exists so that reporting a problem does
