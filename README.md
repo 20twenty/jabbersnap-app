@@ -1,7 +1,7 @@
 # Jabbersnap
 
 Speak quietly. Capture screenshots, selected text, and links as you go.
-Jabbersnap puts everything together into one clear Brief you can send to an AI.
+Jabbersnap puts everything together into one clear prompt you can send to an AI.
 
 **jabbersnap.com**
 
@@ -34,7 +34,7 @@ templates ask for the version and system details that make a report
 reproducible — the more of them you can fill in, the faster it can be diagnosed.
 
 Issues here are public. Please leave out personal data and the contents of any
-real Brief — a redacted example is usually enough to reproduce a problem.
+real prompt — a redacted example is usually enough to reproduce a problem.
 
 Security vulnerabilities go through
 [private vulnerability reporting](../../security/advisories/new) instead, so the
