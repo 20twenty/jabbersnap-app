@@ -45,8 +45,9 @@ the app reports how it is used so we can improve it:
   transcript's length in characters, how many captures it carried), a prompt
   was delivered (to which app or site, by which method, and whether it
   worked), a voice command ran (which built-in actions, the outcome, the
-  recording's length in seconds), the remote connected, and remote button
-  assignments changed (which kinds of actions are assigned).
+  recording's length in seconds), the remote connected, remote button
+  assignments changed (which kinds of actions are assigned), and the live
+  transcription preview was hidden during a recording.
 - A daily snapshot of the app's settings and remote button assignments, plus
   the app version and macOS version.
 
